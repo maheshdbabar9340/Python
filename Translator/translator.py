@@ -7,7 +7,6 @@ def translate():
     translation = translator.translate(var.get())
     var1.set(translation)
 
-
 # Tkinter root Window with title
 root = Tk()
 root.title("Translator")
